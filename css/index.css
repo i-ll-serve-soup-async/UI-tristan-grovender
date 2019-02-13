@@ -160,6 +160,22 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  display: flex;
+  padding-top: 30px;
+  width: 100%;
+  justify-content: center;
+}
+nav a {
+  display: flex;
+  margin: 0 5%;
+  color: black;
+  font-size: 1.5rem;
+}
+nav a:hover {
+  transition: all 0.2s ease-in;
+  color: red;
+}
 .banner {
   display: flex;
   height: 200px;
